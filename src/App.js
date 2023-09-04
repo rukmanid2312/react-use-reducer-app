@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 import Counter from "./Counter/Counter";
 import ToDos from "./ToDos/ToDos";
+import Login from "./Login/Login";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -18,6 +19,7 @@ function App() {
       </button>
       <Counter />
       <ToDos />
+      <Login />
     </div>
   );
 }
